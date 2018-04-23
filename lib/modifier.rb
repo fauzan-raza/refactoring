@@ -1,5 +1,5 @@
-require File.expand_path('lib/combiner',File.dirname(__FILE__))
-require File.expand_path('lib/helper',File.dirname(__FILE__))
+require File.expand_path('combiner',File.dirname(__FILE__))
+require File.expand_path('helper',File.dirname(__FILE__))
 require 'csv'
 require 'date'
 
