@@ -1,4 +1,2 @@
-# refactoring
-The code takes the file with the largest value of date which is the most recent file. The data under 'Clicks' in the file is sorted
-and written to a CSV file. A new file with the sorted data is created with '.sorted' appended to the original file name. This file is
-read row by row.
+# Refactoring
+The code takes the file with the largest value of date which is the most recent file. The file is then sorted based on the 'Clicks' column and written to a CSV file. A new file with the sorted data is created with '.sorted' appended to the original file name. This file is read and data is combined by key. Computation happens according to the type of data determined by key and then all hashes are combined using their headers. The result is finally written to files with 120k lines per file.
